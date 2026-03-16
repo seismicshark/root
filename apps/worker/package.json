@@ -1,0 +1,17 @@
+{
+  "name": "@app/worker",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo lint placeholder",
+    "test": "echo test placeholder"
+  },
+  "dependencies": {
+    "@temporalio/worker": "^1.11.0",
+    "@temporalio/client": "^1.11.0"
+  }
+}

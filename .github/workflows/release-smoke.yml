@@ -1,0 +1,14 @@
+name: Release Smoke
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Verify app loads
+      - run: echo Verify login works
+      - run: echo Verify DB connectivity works
+      - run: echo Verify webhook endpoint health
+      - run: echo Verify worker heartbeat

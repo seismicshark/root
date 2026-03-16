@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Canonicalize product traffic to primary app domain.
+RewriteCond %{HTTP_HOST} !^callintakepro\.com$ [NC]
+RewriteCond %{HTTP_HOST} !^www\.callintakepro\.com$ [NC]
+RewriteRule ^(.*)$ https://callintakepro.com/$1 [R=301,L]

@@ -1,0 +1,29 @@
+{
+  "umbrella_domain": "seismicshark.com",
+  "owner_emails": {
+    "root": "root@seismicshark.com",
+    "infra": "infra@seismicshark.com",
+    "billing": "billing@seismicshark.com"
+  },
+  "primary_domain": "callintakepro.com",
+  "redirect_domains": [
+    {
+      "domain": "getcallintakepro.com",
+      "target": "https://callintakepro.com/book-demo/"
+    },
+    {
+      "domain": "callstobookings.com",
+      "target": "https://callintakepro.com/calls-to-bookings/"
+    },
+    {
+      "domain": "morejobsfromcalls.com",
+      "target": "https://callintakepro.com/more-jobs-from-calls/"
+    },
+    {
+      "domain": "turncallsintoleads.com",
+      "target": "https://callintakepro.com/"
+    }
+  ],
+  "app_subdomain": "app.callintakepro.com",
+  "api_subdomain": "api.callintakepro.com"
+}

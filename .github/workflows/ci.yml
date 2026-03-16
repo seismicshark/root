@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        run: echo checkout
+      - name: Install dependencies
+        run: echo pnpm install
+      - name: Lint
+        run: echo pnpm lint
+      - name: Unit tests
+        run: echo pnpm test:unit
+      - name: Integration tests
+        run: echo pnpm test:integration
+      - name: Smoke tests
+        run: echo pnpm test:smoke

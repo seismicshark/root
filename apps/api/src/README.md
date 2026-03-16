@@ -1,0 +1,20 @@
+Recommended module layout:
+src/
+  index.ts
+  app.ts
+  modules/
+    accounts/
+    auth/
+    leads/
+    calls/
+    jobs/
+    technicians/
+    scheduling/
+    pricing/
+    documents/
+    workflows/
+    billing/
+    webhooks/
+  middleware/
+  plugins/
+  routes/
