@@ -22,7 +22,6 @@ This monorepo preserves the original starter structure and execution scaffolding
 - `getcallintakepro.com`
 - `morejobsfromcalls.com`
 - `turncallsintoleads.com`
-- `callstobookings.com`
 
 Marketing content for those sites lives under `apps/marketing-dreamhost/public_html/`.
 
